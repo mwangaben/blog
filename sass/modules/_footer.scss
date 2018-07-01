@@ -1,0 +1,23 @@
+footer {
+    background: rgba(78, 78, 78, 1);
+    height: 11.125rem;
+    color: #fff;
+    padding: 1.5rem;
+    
+    .paginate {
+        display: flex;
+        button {
+            padding: 1rem;
+            margin-right: 1rem;
+            color: #fff;
+            background: #000;
+            font-size: 1rem;
+            border: none;
+            margin-bottom: 1.5rem;
+        }
+        .active {
+            background: rgba(0, 0, 0, .4);
+            color: rgba(255, 255, 255, .7);
+        }
+    }
+}
