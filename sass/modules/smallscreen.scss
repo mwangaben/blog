@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+    .main {
+        margin: 0;
+        .card {
+            .card-footer {
+                .right {
+                    display: none;
+                }
+            }
+        }
+    }
+}
